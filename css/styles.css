@@ -1,0 +1,385 @@
+
+:root {
+  --main-color: #ffffff;
+  --accend-color: #2196f3;
+  --black-color: #212121;
+  --gray-color: #757575;
+  --darkgray-color: #2f303a;
+  --rgba-color: rgba(255, 255, 255, 0.6);
+  --button-color: #f5f4fa;
+  --button-active: #188ce8;
+  --background-color-second: #F5F5F5;
+
+  --specific-position: 94px;
+  --specific-second-position: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: var(--main-color);
+  color: var(--black-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  outline: 2px solid red;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* Header */
+
+.page-header {
+        background-color: var(--main-color);
+        padding-top: 24px; 
+        padding-bottom: 32px;
+}
+
+/* Logo */
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.logo-header {
+  padding-bottom: 25px;
+}
+
+.logo-web {
+  color: var(--accend-color);
+}
+
+.logo-studio {
+  color: var(--black-color);
+}
+
+/* Header Navigation List */
+
+.link {
+  text-decoration: none;
+}
+
+.header-list-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+
+.header-active-link {
+  color: var(--accend-color);
+}
+
+/* Contacts */
+
+.contacts-mail {
+  font-weight: 500;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+.contacts-tel {
+  font-weight: 500;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--gray-color);
+}
+
+/* Hero */
+
+.hero-page {
+  background-color: var(--darkgray-color);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--main-color);
+
+  padding-top: 200px;
+
+}
+
+.hero-title-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  cursor: pointer;
+
+  color: var(--main-color);
+  background-color: var(--accend-color);
+
+  display: inline-block;
+  
+  margin-top: var(--specific-second-position); 
+  margin-bottom: 200px;
+  
+  border-radius: 4px;
+  border: none;
+  min-width: 216px;
+
+  padding: 10px 32px;
+}
+
+/* Opportunities */
+
+.page-after-hero {
+  background-color: var(--background-color-second)
+}
+
+.opportunities-list {
+  padding-top: var(--specific-position);
+}
+
+.opportunities-title {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--black-color);
+}
+
+.opportunities-text {
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
+
+  margin-top: 10px;
+}
+
+
+
+/* What do we do? */
+
+.what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-color);
+
+  padding-top: var(--specific-position);
+}
+
+.wwd-photo-list {
+  padding-top: 50px;
+}
+
+/* Team */
+
+.team-page {
+  background-color: var(--button-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-color);
+
+  padding-top: var(--specific-position);
+}
+
+.list-team-images {
+  padding-top: 50px;
+  padding-bottom: var(--specific-position);
+}
+
+.worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-color);
+
+  padding-top: var(--specific-second-position);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
+
+  padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--darkgray-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-studio-footer {
+  color: var(--main-color);
+}
+
+.address {
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.address-content {
+  margin-top: 20px;
+}
+
+.footer-mail {
+  color: var(--rgba-color);
+  margin-top: 9px;
+}
+
+.footer-tel {
+  color: var(--rgba-color);
+  margin-top: 9px;
+}
+
+/* All interactive elements */
+
+.interactive-element:hover {
+  color: var(--accend-color);
+}
+
+.interactive-element:focus {
+  color: var(--accend-color);
+}
+
+/* Portfolio page */
+
+.portfolio-page {
+  background-color: var(--background-color-second);
+  padding-bottom: var(--specific-position);
+}
+
+/* Buttons */
+
+.button-list {
+  list-style: none;
+  
+  padding-top: var(--specific-position);
+
+}
+
+.portfolio-buttons {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button-all {
+  color: var(--main-color);
+  background-color: var(--accend-color);
+}
+
+.button {
+  color: var(--black-color);
+  background-color: var(--button-color);
+}
+
+.portfolio-buttons:hover {
+  color: var(--button-active);
+  background-color: var(--main-color);
+}
+
+.portfolio-buttons:focus {
+  background-color: var(--main-color);
+  color: var(--button-active);
+}
+
+/* Photos */
+
+.gallery-list {
+  list-style: none;
+
+  margin-top: 34px;
+}
+
+.galley-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+
+  margin-top: 9px;
+}
+
+.gallery-describtion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--specific-second-position);
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
+
+  margin-top: 4px;
+}
+
+.second-photo-column {
+  margin-top: var(--specific-second-position);
+}
+
+.third-photo-column {
+  margin-top: var(--specific-second-position);
+}
+
